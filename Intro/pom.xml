@@ -30,11 +30,11 @@
                         </manifest>
                         <manifestEntries>
                             <Class-Path>./lib</Class-Path>
-                            <Module-Path>./mods</Module-Path>
                         </manifestEntries>
                     </archive>
                 </configuration>
             </plugin>
+
 
         </plugins>
     </build>
