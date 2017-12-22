@@ -10,6 +10,10 @@
     <version>1.0</version>
     <modules>
         <module>Intro</module>
+        <module>Address</module>
+        <module>Person</module>
+        <module>Reflect</module>
+        <module>ReflectTest</module>
     </modules>
 
     <build>
@@ -25,6 +29,8 @@
                     </jdkToolchain>
                     <source>9</source>
                     <target>9</target>
+                    <showWarnings>true</showWarnings>
+                    <showDeprecation>true</showDeprecation>
                 </configuration>
             </plugin>
     </plugins>
