@@ -11,7 +11,11 @@ The Project is split into several maven modules.
 3) Person: small module showing module dependency between each other
 4) Relect: example of open module
 5) Reflect: module using deep reflection to open module
-
+6) Prime: service module
+7) PrimeFast: provider of prime
+8) PrimeGeneric: provider of prime
+9) PrimeProbable: provider of prime
+10) PrimeClient: client of Prime Service
 
 Build and run:
 ```yaml

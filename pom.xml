@@ -14,6 +14,11 @@
         <module>Person</module>
         <module>Reflect</module>
         <module>ReflectTest</module>
+        <module>Prime</module>
+        <module>PrimeGeneric</module>
+        <module>PrimeFast</module>
+        <module>PrimeProbable</module>
+        <module>PrimeClient</module>
     </modules>
 
     <build>
