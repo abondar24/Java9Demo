@@ -19,6 +19,9 @@
         <module>PrimeFast</module>
         <module>PrimeProbable</module>
         <module>PrimeClient</module>
+        <module>Version</module>
+        <module>Resources</module>
+        <module>ResourceAccess</module>
     </modules>
 
     <build>

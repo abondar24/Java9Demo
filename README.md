@@ -16,6 +16,10 @@ The Project is split into several maven modules.
 8) PrimeGeneric: provider of prime
 9) PrimeProbable: provider of prime
 10) PrimeClient: client of Prime Service
+11) Version: showing correct and incorrect version strings for JDK 9
+12) Resources: resources to be accessed from ResourceAccess module
+13) ResourceAccess: show access to resources from another module
+
 
 Build and run:
 ```yaml
