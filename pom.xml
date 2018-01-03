@@ -22,6 +22,9 @@
         <module>Version</module>
         <module>Resources</module>
         <module>ResourceAccess</module>
+        <module>ModuleApi</module>
+        <module>ModuleAnnotation</module>
+        <module>LayerInfo</module>
     </modules>
 
     <build>

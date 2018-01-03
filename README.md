@@ -18,7 +18,22 @@ The Project is split into several maven modules.
 10) PrimeClient: client of Prime Service
 11) Version: showing correct and incorrect version strings for JDK 9
 12) Resources: resources to be accessed from ResourceAccess module
-13) ResourceAccess: show access to resources from another module
+13) ResourceAccess: shows access to resources from another module
+14) ModuleApi: shows usage of modular API.
+15) ModuleAnnotation: annotated module example
+16) LayerInfo: module which has class printing layer info. 
+Used in ModuleApi
+
+
+ModuleApi includes demos:
+
+- FindModule: find module by path
+- LayerTest: show layer information for required module
+- LoadClass: load class from required module
+- Module: print module for module and required ones
+- QueryModule: check if module open and exported
+- ReadModuleContents: show resources of specified module
+
 
 
 Build and run:
