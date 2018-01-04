@@ -25,6 +25,7 @@
         <module>ModuleApi</module>
         <module>ModuleAnnotation</module>
         <module>LayerInfo</module>
+        <module>JshellDemo</module>
     </modules>
 
     <build>

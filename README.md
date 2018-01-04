@@ -23,7 +23,7 @@ The Project is split into several maven modules.
 15) ModuleAnnotation: annotated module example
 16) LayerInfo: module which has class printing layer info. 
 Used in ModuleApi
-
+17) JshellDemo: module showing usage of Jshell API
 
 ModuleApi includes demos:
 
