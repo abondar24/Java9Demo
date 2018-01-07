@@ -27,6 +27,7 @@
         <module>LayerInfo</module>
         <module>JshellDemo</module>
         <module>ProcessDemo</module>
+        <module>CollectionsDemo</module>
     </modules>
 
     <build>

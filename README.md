@@ -25,8 +25,9 @@ The Project is split into several maven modules.
 Used in ModuleApi
 17) JshellDemo: module showing usage of Jshell API
 18) ProcessDemo: Process API examples
+19) CollectionsDemo: Updates to Java Collections
 
-ModuleApi includes demos:
+ModuleApi includes:
 
 - FindModule: find module by path
 - LayerTest: show layer information for required module
@@ -35,13 +36,19 @@ ModuleApi includes demos:
 - QueryModule: check if module open and exported
 - ReadModuleContents: show resources of specified module
 
-ProcessDemo includes demos:
+ProcessDemo includes:
 
 - CurrentProcessInfo: show info about current process
 - Job:  a job which sleeps at a regular interval up to a max duration.Interval and duration can be set as parameters on start
 - StartProcess: run a new process (uses Job class)
 - ProcessStats: obtain a process handle and show some stats
 - ManagingProcessPermission: working with permissions
+
+CollectionsDemo includes:
+
+- ListDemo: new way of creating unmodifiable lists
+- SetDemo: new way of creating unmodifiable sets
+- MapDemo: new way of creating unmodifiable maps
 
 Build and run Java 9 module:
 ```yaml
