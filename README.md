@@ -24,6 +24,7 @@ The Project is split into several maven modules.
 16) LayerInfo: module which has class printing layer info. 
 Used in ModuleApi
 17) JshellDemo: module showing usage of Jshell API
+18) ProcessDemo: Process API examples
 
 ModuleApi includes demos:
 
@@ -34,9 +35,15 @@ ModuleApi includes demos:
 - QueryModule: check if module open and exported
 - ReadModuleContents: show resources of specified module
 
+ProcessDemo includes demos:
 
+- CurrentProcessInfo: show info about current process
+- Job:  a job which sleeps at a regular interval up to a max duration.Interval and duration can be set as parameters on start
+- StartProcess: run a new process (uses Job class)
+- ProcessStats: obtain a process handle and show some stats
+- ManagingProcessPermission: working with permissions
 
-Build and run:
+Build and run Java 9 module:
 ```yaml
       mvn clean install 
       
@@ -48,3 +55,14 @@ Build and run:
         -m <jigsaw-module-name>/<package-name>.<main-class>
    ```
    As far as I understand one maven module can have only one java module 
+   
+Classic biuld and run:
+
+```yaml
+
+   mvn clean install
+   
+   java -jar <path-to-target>/<jar-name>.jar
+```   
+
+Before build change main class name in pom for the demo you want to run 

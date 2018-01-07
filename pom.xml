@@ -26,6 +26,7 @@
         <module>ModuleAnnotation</module>
         <module>LayerInfo</module>
         <module>JshellDemo</module>
+        <module>ProcessDemo</module>
     </modules>
 
     <build>
