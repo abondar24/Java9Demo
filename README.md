@@ -35,6 +35,7 @@ ModuleApi includes:
 - Module: print module for module and required ones
 - QueryModule: check if module open and exported
 - ReadModuleContents: show resources of specified module
+- HttpDemo: HTTP/2 demo usage
 
 ProcessDemo includes:
 
@@ -49,6 +50,10 @@ CollectionsDemo includes:
 - ListDemo: new way of creating unmodifiable lists
 - SetDemo: new way of creating unmodifiable sets
 - MapDemo: new way of creating unmodifiable maps
+
+HttpDemo includes:
+
+- GoogleHeaders: connect to google.com, get response code and headers
 
 Build and run Java 9 module:
 ```yaml

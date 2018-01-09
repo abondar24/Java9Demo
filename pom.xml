@@ -28,6 +28,7 @@
         <module>JshellDemo</module>
         <module>ProcessDemo</module>
         <module>CollectionsDemo</module>
+        <module>HttpDemo</module>
     </modules>
 
     <build>
