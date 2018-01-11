@@ -29,6 +29,7 @@
         <module>ProcessDemo</module>
         <module>CollectionsDemo</module>
         <module>HttpDemo</module>
+        <module>StackWalking</module>
     </modules>
 
     <build>

@@ -44,6 +44,7 @@ ProcessDemo includes:
 - StartProcess: run a new process (uses Job class)
 - ProcessStats: obtain a process handle and show some stats
 - ManagingProcessPermission: working with permissions
+- StackWalking: new stackwalker api usage
 
 CollectionsDemo includes:
 
@@ -51,9 +52,11 @@ CollectionsDemo includes:
 - SetDemo: new way of creating unmodifiable sets
 - MapDemo: new way of creating unmodifiable maps
 
-HttpDemo includes:
+StackWalking includes:
 
-- GoogleHeaders: connect to google.com, get response code and headers
+- StackWalker: shows stack walking though the stack of function calls
+- GetCallerCallerClass: get the name of a class which calls a method
+- PermissionCheck: instantiate stackwalker before and after installing a SecurityManager
 
 Build and run Java 9 module:
 ```yaml
