@@ -30,6 +30,7 @@
         <module>CollectionsDemo</module>
         <module>HttpDemo</module>
         <module>StackWalking</module>
+        <module>StreamDemo</module>
     </modules>
 
     <build>

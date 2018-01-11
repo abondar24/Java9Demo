@@ -26,6 +26,9 @@ Used in ModuleApi
 17) JshellDemo: module showing usage of Jshell API
 18) ProcessDemo: Process API examples
 19) CollectionsDemo: Updates to Java Collections
+20) HttpDemo: HTTP/2 demo usage
+21) StackWalking: new stackwalker api usage
+22) StreamDemo: Reactive streams and updates to streaming api
 
 ModuleApi includes:
 
@@ -35,7 +38,6 @@ ModuleApi includes:
 - Module: print module for module and required ones
 - QueryModule: check if module open and exported
 - ReadModuleContents: show resources of specified module
-- HttpDemo: HTTP/2 demo usage
 
 ProcessDemo includes:
 
@@ -44,7 +46,6 @@ ProcessDemo includes:
 - StartProcess: run a new process (uses Job class)
 - ProcessStats: obtain a process handle and show some stats
 - ManagingProcessPermission: working with permissions
-- StackWalking: new stackwalker api usage
 
 CollectionsDemo includes:
 
@@ -57,6 +58,15 @@ StackWalking includes:
 - StackWalker: shows stack walking though the stack of function calls
 - GetCallerCallerClass: get the name of a class which calls a method
 - PermissionCheck: instantiate stackwalker before and after installing a SecurityManager
+
+StreamDemo includes:
+
+- NumberPrinter: simple pub-sub usage.
+- PeriodicPublisher: pulisher which publishes items periodically to custom subscribers instantiated to items
+- ProcessorDemo: fitler processor usage
+- StreamDemo: new streaming API features
+- CollectorsDemo: new collectors features
+
 
 Build and run Java 9 module:
 ```yaml
